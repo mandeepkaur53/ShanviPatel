@@ -3,9 +3,7 @@ import React from 'react';
 import Banner from './Banner';
 import AboutUsPage from './AboutUsPage';
 import CourseSection from './CourseSection';
-import ReviewSection from './ReviewSection';
-
-import CharacterList from './CharacterList';
+//import CharacterList from './CharacterList';
 
 
 const Home = () => {
@@ -15,8 +13,7 @@ const Home = () => {
       <Banner />
       <AboutUsPage />
       <CourseSection />
-      <ReviewSection />
-      <CharacterList />
+      {/* <CharacterList /> */}
      
     </div>
   );

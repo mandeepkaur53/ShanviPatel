@@ -5,10 +5,11 @@ import LightModeHeader from './components/LightModeHeader';
 import BuyNow from './components/BuyNow';
 import CharacterList from './components/CharacterList';
 import CourseSection from './components/CourseSection';
-import NotFound from './components/NotFound';
+//import NotFound from './components/NotFound';
 import Price from './components/Price';
 import Purchase from './components/Purchase';
 import Footer from './components/Footer';
+
 
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
           <Route path="/Courses" element={<CourseSection />} />
           <Route path="/Characters" element={<CharacterList />} />
           <Route path="/purchase" element={<Purchase />} />
-          <Route path="*" element={<NotFound />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
         <Footer />
       </div>
